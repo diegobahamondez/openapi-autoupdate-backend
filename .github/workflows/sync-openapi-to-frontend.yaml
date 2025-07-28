@@ -32,7 +32,7 @@ jobs:
       # 4) Create and push a new branch, then open a PR
       - name: Create Pull Request in Frontend
         env:
-          GH_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          GH_TOKEN: ${{ secrets.OPENAPI_SYNC_WORKFLOW }}
         run: |
           cd frontend
           
